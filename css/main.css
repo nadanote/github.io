@@ -1,0 +1,411 @@
+@font-face {
+    font-family: 'Arita-dotum-Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face{
+    font-family: 'DX시인과나-b';
+    font-weight: 900;
+    src: url(../font/DXPnM-KSCpc-EUC-H.ttf);
+}
+
+
+
+div, input, profile, textarea{
+    box-sizing: border-box;
+}
+
+body{
+    
+    margin: 0px;
+    font-family: 'Arita-dotum-Medium';
+/*        'gulim','dotum', 'arial';*/
+
+}
+
+
+
+.profile {
+    width: 100px; 
+    display : block; 
+    margin-left : auto; 
+    margin-right : auto
+}
+
+.title{
+    text-align: center;  
+    font-size: 16px; 
+    font-family: 'nanumsquare'; 
+    letter-spacing: +0.1px
+}
+
+
+
+
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 30px;
+    padding: 40px;
+    border-radius: 5px;
+    margin-left : auto; 
+    margin-right : auto;
+    font-size: px;
+    font-family: 'gulim';
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.container {
+    widows: 800px;
+    
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background: aquamarine;
+}
+
+.left-menu {
+    width: 20%;
+    height: 400px;
+    background: cornflowerblue;
+    display: inline-block;
+    vertical-align: top;
+/*    float: left;*/
+}
+
+.right {
+    width: 80%;
+    height: 400px;
+    background: coral;
+    display: inline-block;
+
+/*    float: left;*/
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: grey;
+/*    clear:both;*/
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+}
+
+.main-title {
+    color: white;
+    font-size:55px;
+    margin-top:100px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+.main-content {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.main-button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent; 
+    border: none; /* 테두리 제거 */
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+}
+
+.explain-box {
+    background-color: #eee;;
+    width: 700px;;
+    text-align: center;
+    position: relative;
+    top: -40px;;
+    margin: auto;
+    padding: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: 'malgun Godick'
+}
+
+.form-background {
+    
+    background-color: black;
+    padding: 30px;
+
+}
+
+.form-white {
+    background-color: white;
+    padding: 30px;
+    width:80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+
+ 
+
+.contact-us {
+    text-align: left;
+}
+
+
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.w-100 {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-long {
+    height: 100px;
+    resize: none;
+    
+}
+
+.purple-button {
+    width: 70%;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    background-color: #dab5da;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+.nav-container {
+    display: flex;
+    background-color: #dab5da;
+/*    padding: 20px;*/
+    height: 100px;
+    align-items: center;
+/*    opacity: 0.5;*/
+}
+
+.nav-item {
+    font-size: 35px;
+    color: white;
+    padding: 20px;
+}
+
+.font-b {
+    font-weight: 900;
+}
+
+.nav-logo {
+    width: 82px; /* 로고 이미지 너비 설정 */
+    height: 82px; /* 로고 이미지 높이 설정 */
+}
+
+nav-item:nth-child(1) {
+    flex-grow: 0; /* 로고 이미지가 더 이상 늘어나지 않도록 설정 */
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.test {
+    width: 20rem;
+    height: 100px;
+    background-color: grey;
+}
+
+.nav-title {
+    margin: 5px;
+    color: purple;
+    font-size: 16px;
+    align-self: flex-end;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+
+}
+
+.product-container {
+    width: 80%;
+    max-width: 1000px;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.product-container i{
+    background-color: #dab5da;
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.product-container h4, .product-container p{
+    margin: 0;
+}
+
+
+
+.product-container div{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+
+
+.shop-bg {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.shop-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.shop-item {
+    width: 33%;
+    padding: 10px;
+}
+
+.shop-item img{
+    width:100%;
+    display: block;
+}
+
+.overay-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 50%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: transform 2.5s ease; /* 변환 효과를 부드럽게 적용하기 위한 transition */
+/*    transition-timing-function: cubic-bezier(1, .12, .95, .09)*/
+    color: white;
+}
+
+.overlay-black p{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.overay-wrap:hover .overlay-black{
+    margin-top: 50%;
+
+}
+
+.overlay-black {
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(0,0,0,0.3);
+    margin-top: 100%;
+    transition: all 1s ease;
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+    .main-title{
+        font-size:40px;
+    }
+    .product-container div{ 
+        width:50%;
+    }  
+  
+}
+
+@media screen and (max-width: 768px){
+    .main-title{
+        font-size:30px;
+    }
+    .nav-item{
+        font-size: 30px;
+    }
+    .product-container div{ 
+        width:100%;
+    }  
+    .form-white div ,.form-white button{
+        width:100%;
+
+    }
+}
+
+
+
+
+div.main-background .custom {
+    color: green;
+}
+/*main2.css*/
+div.main-background p.custom{
+    color: blue
+}

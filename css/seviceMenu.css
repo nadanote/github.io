@@ -1,0 +1,33 @@
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    flex-wrap: wrap; /* 필요에 따라 여러 줄로 나열 */
+}
+
+.menu-item {
+    padding-bottom: 20px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .menu-item {
+        flex: 0 0 calc(50% - 20px); /* 태블릿 크기에서 2열 배치 */
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .menu-item {
+
+        flex: 0 0 calc(100% - 20px); /* 모바일 크기에서 1열 배치 */
+        text-align: center;
+        justify-content: center;
+    }
+
+}
+
+
+

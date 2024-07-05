@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'Arita-dotum-Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: "Arita-dotum-Medium";
+    /*        "Arita-dotum-Medium";
+        "nanum square"*/
+}
+
+div {
+    box-sizing: border-box;
+}
+h4{
+        letter-spacing: 1px;
+
+}
+
+.main-background {
+    background: #000046;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #1CB5E0, #000046);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #1A2980, #1CB5E0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    widows: 100%;
+    height: 100%;
+
+}
+
+.main-container {
+    color: white;
+    text-align: left;
+    padding: 60px;
+    padding-bottom: 0px;
+    float: left;
+}
+
+
+
+
+.main-content {
+    font-size: 16px;
+}
+
+.main-taitle {
+    font-size: 30px;
+    margin: 0;
+
+}
+
+.button-black {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.img-iphone {
+    float: right;
+    width: 25%;
+    padding: 75px;
+    padding-bottom: 0;
+}
+
+.white-container {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    align-content: center;
+}
+
+.white-container h4,
+.white-container p,
+.white-container button {
+    margin: 5px;
+    ;
+}
+
+.services-container {
+    width: 80%;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    margin: auto;
+
+}
+
+.services-menu p
+ {
+     padding-bottom: 20px;
+}
+
+
+.services-title {
+    margin: 0;
+}
+
+.font-20 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.services-container i {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 27px;
+    box-sizing: border-box;
+    color: #1A2980;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.services-container h4,
+.services-container p {
+    margin: 0;
+}
+
+.services-menu {
+    float: left;
+    width: 25%;
+
+}
+
+.explain-conatainer {
+    width: 80%;
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+/*    position: relative;*/
+}
+
+.explain-conatainer p,
+.explain-conatainer h4 {
+    margin: 0;
+}
+
+
+
+.img-box {
+/*    width: 100%;*/
+/*    height: 100%;*/
+    display: flex;
+    position: relative;
+  
+
+/*    background-image: url(../img/portfolio-1.jpg);*/
+    
+}
+
+.explain-text {
+    position: absolute;
+    color: white;
+    text-align: left;
+    padding: 30px; 
+}
+
+.explain-content {
+    float: left;
+    margin: 0;
+    width: 50%;
+    color: linear-gradient(rgba(0,0,0,0.4));
+    
+}
+
+.explain-img {
+    width: 100%;
+/*    color: linear-gradient(rgba(0,0,0,0.4));*/
+/*    height: 100%;*/
+
+}
+
+.sns-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.sns-container i{
+    background-color: #1A2980;
+    border-radius: 50px;
+    color: white;
+    width: 70px;
+/*    height: 65px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;;
+    margin: 14px;
+}
+
+
+.white-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    border: 0px solid white;
+}
+.white-box:hover{
+    border: 30px solid white;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width:768px){
+    .main-container{
+        float: none;
+        text-align: center;
+    }
+    .img-iphone{
+        width: 50%;
+        float: none;
+        display: block;
+        padding-top: 10px;
+        margin: auto;
+    }
+    
+    .services-menu i{
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        
+    }
+    .services-menu h4 {
+        font-size: 12px;
+    }
+    .services-menu p{
+        font-size: 10px;
+    }
+    .explain-text{
+/*        font-size: 12px;*/
+    }
+    .explain-content {
+        width: 100%;
+    }
+}
+

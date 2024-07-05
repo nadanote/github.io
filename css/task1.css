@@ -1,0 +1,50 @@
+
+.profile {
+    width:40px;
+    vertical-align: top;
+
+}
+
+.container {
+    width: 70%;
+    vertical-align: top;
+    display: inline-block;
+
+}
+
+
+
+
+.name {
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+.time {
+    color: gray;
+    font-size: 11px;
+    margin-top: 0px;
+}
+
+.nameBox {
+    display: inline-block;
+}
+
+.preview {
+    color: gray;
+    font-size: 15px;
+}
+
+.poto {
+    width: 50%;
+}
+
+
+
+.potoBox {
+    width: 30%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
